@@ -1,0 +1,46 @@
+{
+  "schema": 1,
+  "note": "One record per external fact. state is stated, absent or unconfirmed. Absent and unconfirmed records carry no value and no url. Handles are never stored, they are derived from the url.",
+  "checkedAt": "2026-10-08",
+  "records": {
+    "name": {
+      "state": "stated",
+      "value": "Moves",
+      "source": "project brief",
+      "statedAt": "2026-10-08"
+    },
+    "domain": {
+      "state": "stated",
+      "value": "moves.onl",
+      "source": "project brief",
+      "statedAt": "2026-10-08"
+    },
+    "chain": {
+      "state": "stated",
+      "value": "Solana",
+      "source": "client statement 2026-10-08 batch-level",
+      "statedAt": "2026-10-08"
+    },
+    "rpc": {
+      "state": "stated",
+      "url": "https://solana-rpc.publicnode.com",
+      "source": "client instruction, rebuild brief",
+      "statedAt": "2026-10-08"
+    },
+    "ca": {
+      "value": null,
+      "state": "absent",
+      "source": null,
+      "statedAt": null,
+      "checkedAt": "2026-10-08"
+    },
+    "x": {
+      "state": "absent",
+      "checkedAt": "2026-10-08"
+    },
+    "github": {
+      "state": "absent",
+      "checkedAt": "2026-10-08"
+    }
+  }
+}

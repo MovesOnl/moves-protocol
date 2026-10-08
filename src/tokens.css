@@ -1,0 +1,19 @@
+/*
+ * The only file that may contain colour literals.
+ * Brand palette, measured from the supplied brand and reference images. Every value is
+ * neutral (red = green = blue), which is what the brand actually is: black, white, metal grey.
+ * Sampled: 000000 logo field, 040404 deck field, 080808 cover field, 373737 plinth,
+ * d8d8d8 headline grey, ffffff logo white. The remaining steps sit between those anchors.
+ */
+:root {
+  --color-void: #000000;
+  --color-floor: #040404;
+  --color-coal: #080808;
+  --color-raised: #161616;
+  --color-paper-soft: #373737;
+  --color-paper-faint: #6b6b6b;
+  --color-floor-faint: #8a8a8a;
+  --color-floor-text: #b0b0b0;
+  --color-paper: #d8d8d8;
+  --color-ground: #ffffff;
+}
